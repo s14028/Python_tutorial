@@ -1,0 +1,1 @@
+You can define __del__ function to an object in Python, but garbage collactor won't delete those obejcts. They have to be deleted through del function.

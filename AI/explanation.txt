@@ -1,0 +1,25 @@
+Finetune - poping few of the layers and pushing some others instead, then, stoping to train the rest of model - train only those few new layers.
+Underfitting - when we are having too pure model for task. Not using few of parameters.
+Overfitting - we are only learning on our images and do not catch the whole picture of it. That's why after switching to testing data-set, we got our drop rates.
+In order to prevent overfitting, we use layers called Dropout(rate (ex 0.5)) in order to 0 50% of last layer activation function result for example.
+This way we are trying to ensure, that our model will teach him self the whole idea, instead of perfectly knowing out training data-set.
+
+Easy rules for preventing overfitting:
+1. More data
+2. Dropout
+3. Reduce complexity
+4. Data augmentation. Generating new data using the old one. keras.image.ImageDataGenerator(rotation_range=15, width_shift_range=0.5, zoom_range=0.1, flip=True)
+5. Use architect which generalizing well.
+Normalization weights.
+The good decision is to normalize our batch input.
+Retrieve mean and standard deviation and normalize every xi.
+
+The purpose of it is to have values close in place.
+We normalize activation function output as well.
+But we do it in slightly defferent way:
+
+a) Add two more trainable parameters to each layer - first will multiply all activations to set an arbitrary standard deviation, and other one
+to add to all activations to arbitrary mean.
+b) Incorporate both normalization, and step a into the gradiant calculation during backprop.
+
+:-)

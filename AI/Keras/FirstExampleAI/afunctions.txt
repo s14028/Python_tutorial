@@ -1,0 +1,10 @@
+I have tried to change activation functions of second layer
+hard_sigmoid = 79.16
+sigmoid = 79.69
+linear = 78.25
+tanh = 80.46
+softsign = 77.99
+softplus = 77.73
+selu = 78.25
+elu = 78.25
+softmax = 78.64

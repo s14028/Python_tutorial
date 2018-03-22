@@ -1,0 +1,368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>System Login -- Fur Affinity [dot] net</title>
+
+    <link rel="icon" href="/themes/classic/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/themes/classic/img/favicon.ico" type="image/x-icon" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=EDGE" />
+    <meta name="ero_verify" content="1d42658d34f4c71f70af90b130f37c66" />
+
+    <meta name="description"        content="Fur Affinity is the internet's largest online gallery for furry, anthro, dragon, brony art work and more!" />
+    <meta name="keywords"           content="fur furry furries fursuit fursuits brony bronies zootopia scalies anthro anthropormophic art online gallery" />
+    <meta name="language"           content="english" />
+    <meta name="copyright"          content="IMVU" />
+    <meta name="distribution"       content="global" />
+
+
+    <!-- og -->
+        <meta property="og:image" content="/themes/classic/img/banners/fa_logo.png" />
+    
+    <script type="text/javascript">
+        var _fajs=[],_loadjs=function(p,c,a,f){var z='onload',y='onreadystatechange',x='onerror',w='documentMode',v='head',u=undefined,d=document,w=window,h=d[v]||d.getElementsByTagName(v)[0],s=d.createElement('script');s.type='text/javascript';if(c){s[z]=s[y]=function(e){e=e||w.event;if(e.type==='load'||(/loaded|complete/.test(s.readyState)&&(!d[w]||d[w]<9))){s[z]=s[y]=s[x]=null;c();}};s[x]=function(){s[z]=s[y]=s[x]=null;c();};}a!==u&&(s.async=!!a);f!==u&&(s.defer=!!f);s.src=p;h.insertBefore(s,h.lastChild);},t=document.documentElement;t.className=t.className.replace('no-js','');
+    </script>
+    <link type="text/css" rel="stylesheet" href="/themes/classic/css/dark.css?u=2017070600" />
+
+    <!-- browser hints -->
+    <link rel="preconnect" href="//t.facdn.net" />
+    <link rel="preconnect" href="//a.facdn.net" />
+    <link rel="preconnect" href="//rv.furaffinity.net" />
+    <link rel="preconnect" href="//www.googletagservices.com" />
+    <link rel="preconnect" href="//prod.adspsp.com" />
+    <link rel="preconnect" href="//pixel.quantserve.com" />
+
+    <link rel="preload"  href="/themes/classic/js/script.js?u=2017070600" as="script" />
+    <link rel="preload"  href="//www.googletagservices.com/tag/js/gpt.js" as="script" />
+</head>
+
+<body data-static-path="/themes/classic" id="pageid-login">
+    <a name="top"></a>
+
+    <!-- top-menu -->
+    
+<!-- top-menu -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="block-menu-top">
+    <tr>
+        <td class="header_bkg">
+            <ul class="dropdown dropdown-horizontal">
+                <li><a href="/browse/">Browse</a></li>
+                                <li><a href="#" class="dir">&#9660; Community</a>
+                    <ul>
+                        <li><a href="http://forums.furaffinity.net/">Fur Affinity Forums</a></li>
+                        <li><a href="http://twitter.com/furaffinity">Twitter</a></li>
+                        <li><a href="http://www.facebook.com/furaffinity">Facebook</a></li>
+                        <li><hr></li>
+                        <li><a href="/advertising">Advertising</a>
+                    </ul>
+                </li>
+                <li><a href="#" class="dir">&#9660; Support</a>
+                    <ul>
+                        <li><a href="/journals/fender/">News and Updates</a></li>
+                        <li><a href="/help">Knowledgebase</a></li>
+                        <li><hr></li>
+                        <li><a href="/staff/">Site Staff</a></li>
+                        <li><a href="/tos">Terms of Service</a></li>
+                        <li><a href="/coc">Code of Conduct</a></li>
+                        <li><a href="/aup">Acceptable Upload Policy</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://www.faunited.org" class="dir">&#9660; FA United</a>
+                    <style>
+                        .fau-banner li a {
+                            padding:0 !important;
+                            width:500px;
+                            min-width:500px;
+                            -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.5);
+                            -moz-box-shadow:    4px 4px 5px 0px rgba(0,0,0,0.5);
+                            box-shadow:         4px 4px 5px 0px rgba(0,0,0,0.5);
+                        }
+                        .fau-banner li a:hover {
+                            width:500px;
+                            border: 0px none;
+                        }
+                    </style>
+                    <ul class="fau-banner">
+                        <li><a href="http://www.faunited.org"><img src="/themes/classic/img/fau-banner-classic.jpg"></a></li>
+                    </ul>
+                </li>
+                <li class="search-box-container">
+                    <form method="get" action="/search/">
+                        <input type="text" name="q" placeholder="Search">
+                        <a href="/search">&nbsp</a>
+                    </form>
+                </li>
+            </ul>
+        </td>
+
+        <td class="header_bkg">
+            <ul class="dropdown dropdown-horizontal dropdown-left">
+                <li class="noblock"><a href="/register/">Register</a> | <a href="https://www.furaffinity.net/login/">Log in</a></li>
+            </ul>
+
+            <script type="text/javascript">
+                _fajs.push(['init_sfw_button', 'sfw-toggle']);
+            </script>
+        </td>
+    </tr>
+</table>
+<!-- /top-menu -->
+    <!-- /top-menu -->
+
+    <!-- banner -->
+    <div class="block-banners clearfix">
+        <a href="/" id="fa_header"></a>
+        
+<div class="ads">
+    <div class="in">
+        <div id="ad-1" class="ad hidden first"></div>
+        <div id="ad-3" class="ad hidden"></div>
+    </div>
+</div>
+    </div>
+    <!-- /banner -->
+
+                
+<div id="news" class="date-1502476658">
+    <img class="dismiss" src="/themes/classic/img/close_panel.png" title="Dismiss" />
+    <a href="/journal/8364407">FA United 2017 August Newsletter </a>
+</div>
+
+<script type="text/javascript">
+    _fajs.push(['init_news_block', 'news']);
+</script>
+    <div id="ad-extra-flat" class="p10" style="text-align: center; min-height: 90px"></div>
+    <br />
+
+    <div style="width:98%; margin: 0 auto;">
+<!-- /header -->
+<!-- {login} -->
+<br/>
+<form method="post" action="/login/">
+    <INPUT TYPE="hidden" name="action" VALUE="login"/>
+    <table cellpadding="3" cellspacing="1" border="0" width="95%" class="maintable">
+        <tr>
+            <td align="center" class="cat">
+                Login with <i>username</i> and <i>password</i>:
+            </td>
+        </tr>
+        <tr>
+            <td align="center" class="alt1">
+
+            
+                <table border="0" cellspacing="0" cellpadding="4">
+                    <tr>
+                        <td class="alt1">
+                            <div align="right">Username:&nbsp;</div>
+                        </td>
+                        <td>
+                            <input class="textbox" type="text" name="name" value=""  id="login"  style="width: 100%"/>
+                            <br/>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td class="alt1">
+                            <div align="right">Password:&nbsp;</div>
+                        </td>
+                        <td>
+                            <input class="textbox" type="password" name="pass" style="width: 100%"/>
+                            <br/>
+                        </td>
+                    </tr>
+
+
+                                    <tr>
+                        <td>
+                            Verification:
+                        </td>
+                        <td class="alt1" style="width: 174px; padding-left: 6px; height: 150px;">
+                            <div id="recaptcha-container" class="recaptcha-container " style="margin-left: 10px">
+                                <div id="g-recaptcha"></div>
+                                <noscript>
+                                    <div class="error-msg-box" style="margin-right: 10px">
+                                        You need to have Javascript enabled for the new verification method to work.
+                                    </div>
+                                </noscript>
+                            </div>
+                            <div class="image-captcha-container hidden">
+                                Type the characters you see in the picture below.
+                                <p>
+                                    <img src="/captcha.jpg?rnd=15031574534080" id="captcha_img" />
+                                    <br />
+                                    <br />
+
+                                    <input type="hidden" name="use_old_captcha" value="0" autocomplete="off" />
+                                    <input type="text" autocomplete="off" class="textbox captcha" name="captcha" id="captcha" value="" maxlength="15"/>
+                                    <br />
+                                    <a href="/login/" id="reload" style="margin-top: 2px">Reload image</a>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td class="alt1">
+                            &nbsp;
+                        </td>
+                        <td>
+                            <input type="submit" class="button" name="login" value="Login to&nbsp;FurAffinity" style="cursor:pointer; width: 100%"/><br/>
+                        </td>
+                    </tr>
+                </table>
+                <br/>
+                Forgotten your password? [<a href="/lostpw/">Click here!</a>]<br/>
+                Problems with the new verification method? [<a id="captcha-switch" href="/login/?mode=imagecaptcha">Click here!</a>]<br/>
+                <br/>
+                <div style="width: 370px; margin: 8px 0 8px 0; text-align:left; border-top: 2px solid grey; padding-top: 8px">
+                    On 2016-05-22 we reset all passwords on the site. If you have not reset your password please use <a href="/lostpw/">the recovery tool</a> to regain access to your account.<br />
+                    If you have any problems please email <strong>accounts@furaffinity.net</strong> for assistance.
+                </div>
+            </td>
+        </tr>
+    </table>
+</form>
+<!-- {/login} -->
+
+<script type="text/javascript">
+    //
+    window['recaptcha_rendered'] = false;
+    function recaptcha_render() {
+        //
+        // recaptcha render function
+        //
+        var recaptcha_container = document.getElementById('recaptcha-container');
+        if(recaptcha_container.className.indexOf('hidden') === -1) {
+            var recaptcha_theme = 'dark';
+
+            grecaptcha.render('g-recaptcha', {
+              'sitekey' : '6LcN8CITAAAAAL7vmmAmOoZrJ6uaFUjkc-20wnkc',
+              'theme'   : recaptcha_theme,
+              'size'    : 'compact'
+            });
+            window['recaptcha_rendered'] = true;
+        }
+    }
+
+    function reload_image_captcha() {
+        var img = $('captcha_img');
+        img.src = img.src.replace(/\?.+$/, '')+'?random='+((new Date()).getTime());
+        $('captcha').value='';
+    }
+
+    //
+    _fajs.push(function(){
+        $('login').activate();
+
+        $('reload').observe('click', function(evt){
+            evt.stop();
+            reload_image_captcha();
+        });
+
+
+        //
+        // recaptcha
+        //
+        $('captcha-switch').observe('click', function(evt) {
+            //
+            evt.stop();
+
+            var recaptcha_container     = $$('.recaptcha-container').first();
+            var image_captcha_container = $$('.image-captcha-container').first();
+            var hidden_input            = image_captcha_container.down('input[type=hidden]');
+
+            if(recaptcha_container.hasClassName('hidden')) {
+                recaptcha_container.removeClassName('hidden');
+                image_captcha_container.addClassName('hidden');
+                hidden_input.value = 0;
+
+                if(window['recaptcha_rendered'] === false) {
+                    recaptcha_render();
+                }
+            } else {
+                reload_image_captcha();
+                recaptcha_container.addClassName('hidden');
+                image_captcha_container.removeClassName('hidden');
+                hidden_input.value = 1;
+            }
+        });
+    });
+</script>
+
+<!-- recaptcha -->
+<script src="https://www.google.com/recaptcha/api.js?onload=recaptcha_render&render=explicit" async defer></script>
+
+
+    </div>
+
+    <div class="footer">
+        
+<div class="ads" style="height: auto !important;">
+            <span id="ad-9" class="ad hidden"  style="display:inline-block; margin-bottom: 10px;"></span>
+    
+    <img class="falogo" src="/themes/classic/img/banners/fa_logo.png">
+
+    <div class="ftr">
+            <div id="ad-5" class="ad hidden spacer"></div>
+        <div id="ad-7" class="ad hidden"></div>
+        </div>
+</div>
+
+        <br />
+        <p>
+            <a href="/advertising">Advertising</a> |
+            <a href="http://twitter.com/furaffinity">Twitter</a> |
+            <a href="http://www.facebook.com/furaffinity"> Facebook</a> |
+            <a href="/tos">Terms of Service</a> |
+            <a href="/coc">Code of Conduct</a> |
+            <a href="/aup">Acceptable Upload Policy</a>
+        </p>
+
+        Fur Affinity is &copy; 2005-2017 IMVU<br /><br />
+
+                    <center>
+                21093                <b><span title="Measured in the last 900 seconds">Users online</span></b> &mdash;
+                858 <b>guests</b>,
+                                    10199 <b>registered</b>
+                    and 10036 <b>other</b>
+                                <!-- Online Counter Last Update: Sat, 19 Aug 2017 11:42:14 -0400 -->
+            </center>
+        
+        Server Local Time: Aug 19th, 2017 11:44 AM        <br />
+        Page generated in 0.004 seconds [ 59.6% PHP, 40.4% SQL ] (7 queries)    </div>
+
+
+    <script type="text/javascript" src="/themes/classic/js/script.js?u=2017070600"></script>
+    <script type="text/javascript">
+        var server_timestamp = 1503157453;
+        var client_timestamp = ((new Date()).getTime())/1000;
+        var server_timestamp_delta  = server_timestamp - client_timestamp;
+        var sfw_cookie_name = 'sfw';
+        var news_cookie_name = 'n';
+
+        var ad_config = {fa:{zone_ids:[]},google:{zone_data:{}}};
+    </script>
+
+
+
+
+    <!-- quantcast -->
+    <script type="text/javascript">
+        var _qevents = [{qacct:"p-8fZNjMQsH1Ews"}];
+        _loadjs((document.location.protocol === "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js", undefined, true);
+    </script>
+    <noscript><img src="//pixel.quantserve.com/pixel/p-8fZNjMQsH1Ews.gif" style="display:none;"/></noscript>
+    <!-- /quantcast -->
+
+    <!-- alexa tracker -->
+    <script type="text/javascript">
+        _atrk_opts={atrk_acct:"hvx/o1IWhd10Y8",domain:"furaffinity.net",dynamic: true};
+        _loadjs('https://d31qbv1cthcecs.cloudfront.net/atrk.js', undefined, true);
+    </script>
+    <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=hvx/o1IWhd10Y8" style="display:none"/></noscript>
+    <!-- /alexa tracker -->
+</body>
+</html>
