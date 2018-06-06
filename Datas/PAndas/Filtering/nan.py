@@ -13,3 +13,11 @@ print(frame)
 series = pd.Series(data=[1, np.nan, 3], name="A")
 
 print(series.interpolate())
+
+#Look for nans
+
+nulls = series.isnull()
+
+print(nulls)
+
+print(nulls.sum())
